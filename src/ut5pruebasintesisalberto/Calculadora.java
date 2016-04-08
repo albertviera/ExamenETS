@@ -9,11 +9,14 @@ package ut5pruebasintesisalberto;
  *
  * @author Albbe
  */
+
+
 public class Calculadora {
     /**
  * Variable privada para numeros enteros llamada:operador1
  */
     private int operador1;
+//al hacer el merge he modificado esto
      /**
  * Variable privada para numeros enteros llamada:operador2
  */
@@ -25,6 +28,10 @@ public class Calculadora {
     private int operacion;
     
 
+    private int oper2;
+    private int operador;
+
+
     public int getOperador1() {
         return operador1;
     }
@@ -34,19 +41,19 @@ public class Calculadora {
     }
 
     public int getOperador2() {
-        return operador2;
+        return oper2;
     }
 
     public void setOperador2(int operador2) {
-        this.operador2 = operador2;
+        this.oper2 = operador2;
     }
 
     public int getOperacion() {
-        return operacion;
+        return operador;
     }
 
     public void setOperacion(int operacion) {
-        this.operacion = operacion;
+        this.operador = operacion;
     }
     
     
