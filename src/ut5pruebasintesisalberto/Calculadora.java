@@ -10,9 +10,20 @@ package ut5pruebasintesisalberto;
  * @author Albbe
  */
 public class Calculadora {
+    /**
+ * Variable privada para numeros enteros llamada:operador1
+ */
     private int operador1;
+     /**
+ * Variable privada para numeros enteros llamada:operador2
+ */
     private int operador2;
+    
+     /**
+ * Variable privada para numeros enteros llamada:operacion
+ */
     private int operacion;
+    
 
     public int getOperador1() {
         return operador1;
